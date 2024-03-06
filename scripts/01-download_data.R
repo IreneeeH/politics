@@ -23,6 +23,9 @@ ces2020 <-
   ) |>
   select(votereg, CC20_410, gender, educ)
 
+# Now, go to Environment tab (near Git tab) and click on ces2020. It should have
+# all the raw data
+
 #### Save data ####
 
 write_csv(ces2020, "data/raw_data/ces2020.csv")
